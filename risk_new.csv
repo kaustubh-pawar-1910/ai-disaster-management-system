@@ -1,0 +1,801 @@
+incident_id,state,city,disaster_type,month,year,casualties,economic_loss_crores,response_time_hours,severity
+1,Gujarat,Vadodara,Cyclone,4,2020,22,64.11,16.4,High
+2,Tamil Nadu,Chennai,Flood,8,2022,18,26.25,17.3,Medium
+3,Karnataka,Mangaluru,Earthquake,12,2023,3,35.95,20.2,Medium
+4,West Bengal,Howrah,Fire,10,2022,0,36.59,5.8,Medium
+5,Karnataka,Bengaluru,Flood,4,2020,6,4.6,6.1,Low
+6,Karnataka,Mysuru,Earthquake,1,2024,7,21.69,23.3,Low
+7,West Bengal,Howrah,Flood,10,2020,34,32.41,4.3,Medium
+8,Tamil Nadu,Chennai,Cyclone,3,2018,5,50.76,20.0,Medium
+9,Tamil Nadu,Madurai,Cyclone,2,2015,7,13.27,18.9,Low
+10,West Bengal,Durgapur,Landslide,9,2018,31,46.22,4.6,Medium
+11,West Bengal,Howrah,Flood,12,2016,4,74.63,12.6,Medium
+12,Tamil Nadu,Chennai,Cyclone,11,2019,1,7.31,20.2,Low
+13,West Bengal,Howrah,Cyclone,1,2021,19,20.45,4.1,Medium
+14,Tamil Nadu,Madurai,Earthquake,4,2016,33,71.76,14.4,High
+15,Gujarat,Surat,Cyclone,8,2024,36,47.76,22.1,Medium
+16,Maharashtra,Mumbai,Landslide,5,2021,29,57.09,17.2,High
+17,Tamil Nadu,Madurai,Cyclone,7,2018,7,45.29,8.3,Medium
+18,West Bengal,Howrah,Fire,9,2025,2,20.86,10.6,Low
+19,Gujarat,Ahmedabad,Fire,8,2019,18,50.22,15.7,Medium
+20,Gujarat,Ahmedabad,Landslide,11,2022,4,55.76,19.0,Medium
+21,Karnataka,Mysuru,Cyclone,6,2019,16,4.07,14.9,Low
+22,Tamil Nadu,Madurai,Cyclone,2,2024,40,14.19,13.1,Medium
+23,Gujarat,Ahmedabad,Earthquake,3,2020,38,51.97,20.4,High
+24,Tamil Nadu,Coimbatore,Fire,3,2025,17,59.88,20.2,Medium
+25,Maharashtra,Nashik,Landslide,8,2017,0,40.72,20.2,Medium
+26,Karnataka,Mysuru,Earthquake,9,2022,17,24.18,14.5,Medium
+27,Gujarat,Vadodara,Earthquake,6,2025,29,28.99,22.6,Medium
+28,Gujarat,Vadodara,Cyclone,5,2019,21,56.49,17.0,Medium
+29,West Bengal,Durgapur,Landslide,11,2017,35,67.52,11.7,High
+30,Gujarat,Vadodara,Flood,8,2025,40,7.42,12.2,Medium
+31,Karnataka,Bengaluru,Earthquake,1,2023,20,46.47,23.7,Medium
+32,Tamil Nadu,Chennai,Earthquake,3,2020,22,78.81,21.0,High
+33,Tamil Nadu,Coimbatore,Earthquake,1,2025,27,38.98,16.0,Medium
+34,West Bengal,Howrah,Landslide,8,2020,26,19.68,5.0,Medium
+35,West Bengal,Kolkata,Landslide,2,2023,32,69.12,11.7,High
+36,Tamil Nadu,Madurai,Earthquake,10,2020,1,71.09,10.9,Medium
+37,Karnataka,Bengaluru,Landslide,7,2023,0,26.5,1.0,Medium
+38,Gujarat,Vadodara,Fire,8,2025,5,19.44,4.8,Low
+39,Karnataka,Mysuru,Fire,12,2017,6,31.61,20.3,Medium
+40,Gujarat,Vadodara,Fire,5,2023,22,74.8,21.0,High
+41,Tamil Nadu,Madurai,Fire,2,2015,13,30.66,14.0,Medium
+42,West Bengal,Kolkata,Earthquake,2,2019,29,51.14,11.1,Medium
+43,Karnataka,Mangaluru,Landslide,11,2015,37,14.74,11.3,Medium
+44,Maharashtra,Nashik,Cyclone,12,2022,21,23.78,17.9,Medium
+45,West Bengal,Kolkata,Earthquake,7,2022,26,46.44,19.0,Medium
+46,Karnataka,Mangaluru,Fire,5,2024,4,66.16,13.2,Medium
+47,West Bengal,Durgapur,Earthquake,4,2018,23,6.87,3.7,Medium
+48,Karnataka,Mysuru,Fire,2,2016,40,56.84,10.3,High
+49,Maharashtra,Pune,Cyclone,12,2021,28,2.64,11.7,Low
+50,West Bengal,Howrah,Fire,2,2022,15,55.14,19.7,Medium
+51,Tamil Nadu,Madurai,Fire,6,2016,1,49.99,4.7,Medium
+52,West Bengal,Kolkata,Cyclone,5,2015,17,21.58,21.3,Medium
+53,West Bengal,Kolkata,Fire,8,2018,10,35.75,3.9,Medium
+54,Karnataka,Mysuru,Cyclone,8,2017,10,61.84,20.6,Medium
+55,Gujarat,Surat,Earthquake,4,2015,1,11.79,20.5,Low
+56,Gujarat,Surat,Landslide,7,2017,24,65.23,14.6,High
+57,Maharashtra,Nagpur,Fire,5,2021,32,24.83,13.6,Medium
+58,Karnataka,Mangaluru,Flood,1,2017,27,54.37,23.3,Medium
+59,Maharashtra,Nashik,Earthquake,7,2016,15,68.5,15.5,High
+60,West Bengal,Howrah,Flood,6,2022,12,67.7,1.9,High
+61,West Bengal,Kolkata,Earthquake,12,2023,38,20.93,2.9,Medium
+62,Karnataka,Bengaluru,Flood,6,2022,38,70.49,11.2,High
+63,Karnataka,Mysuru,Fire,8,2015,13,7.39,4.9,Low
+64,West Bengal,Durgapur,Cyclone,7,2025,19,60.96,20.7,Medium
+65,Gujarat,Surat,Cyclone,10,2020,28,45.38,12.1,Medium
+66,Maharashtra,Mumbai,Landslide,8,2015,7,79.63,23.5,Medium
+67,Tamil Nadu,Madurai,Earthquake,7,2025,20,28.81,16.0,Medium
+68,West Bengal,Kolkata,Earthquake,9,2015,1,75.95,20.6,Medium
+69,Maharashtra,Pune,Cyclone,12,2015,21,43.99,4.7,Medium
+70,West Bengal,Howrah,Flood,3,2021,8,63.93,15.9,Medium
+71,Karnataka,Mysuru,Flood,3,2017,9,15.6,15.4,Low
+72,Maharashtra,Nashik,Flood,6,2016,18,14.97,4.0,Medium
+73,West Bengal,Howrah,Flood,9,2021,16,42.57,12.8,Medium
+74,Tamil Nadu,Chennai,Landslide,1,2024,15,15.01,4.2,Medium
+75,Gujarat,Surat,Cyclone,5,2020,30,62.06,7.4,High
+76,Karnataka,Mangaluru,Landslide,12,2018,1,8.76,8.6,Low
+77,West Bengal,Howrah,Flood,5,2017,34,47.72,15.4,Medium
+78,Tamil Nadu,Coimbatore,Flood,11,2022,5,1.98,5.4,Low
+79,Maharashtra,Nagpur,Flood,3,2017,12,11.39,5.5,Low
+80,Maharashtra,Pune,Cyclone,3,2016,37,65.98,16.8,High
+81,Maharashtra,Mumbai,Landslide,9,2024,7,48.68,12.9,Medium
+82,Gujarat,Vadodara,Earthquake,2,2021,4,48.79,4.8,Medium
+83,Gujarat,Vadodara,Earthquake,11,2025,36,9.01,16.0,Medium
+84,Karnataka,Bengaluru,Landslide,4,2023,3,28.39,3.6,Medium
+85,Gujarat,Vadodara,Fire,3,2020,14,58.81,15.0,Medium
+86,Tamil Nadu,Chennai,Earthquake,7,2018,26,56.85,22.9,Medium
+87,West Bengal,Howrah,Flood,8,2022,10,41.18,12.7,Medium
+88,West Bengal,Howrah,Fire,9,2015,12,37.42,12.1,Medium
+89,Maharashtra,Pune,Flood,9,2018,39,30.19,12.7,Medium
+90,Tamil Nadu,Chennai,Fire,7,2025,18,39.45,14.8,Medium
+91,Gujarat,Surat,Cyclone,10,2016,38,15.9,9.1,Medium
+92,West Bengal,Durgapur,Fire,6,2017,19,60.21,18.3,Medium
+93,Karnataka,Bengaluru,Fire,8,2016,35,48.67,10.8,High
+94,Tamil Nadu,Madurai,Landslide,3,2025,17,61.6,20.7,Medium
+95,Karnataka,Mangaluru,Earthquake,5,2021,6,35.9,15.3,Medium
+96,Maharashtra,Nashik,Earthquake,10,2019,38,33.26,19.4,Medium
+97,Maharashtra,Mumbai,Fire,4,2019,13,43.57,5.0,Medium
+98,Gujarat,Vadodara,Cyclone,6,2019,29,20.0,15.6,Medium
+99,Karnataka,Mangaluru,Flood,11,2024,2,7.29,7.9,Low
+100,West Bengal,Howrah,Earthquake,8,2016,8,54.9,13.5,Medium
+101,Maharashtra,Nashik,Cyclone,10,2025,39,79.57,20.4,High
+102,Karnataka,Mysuru,Earthquake,2,2022,2,18.21,1.2,Low
+103,Maharashtra,Nashik,Flood,4,2023,39,2.65,1.6,Medium
+104,Maharashtra,Nagpur,Landslide,7,2019,36,8.31,21.8,Medium
+105,West Bengal,Durgapur,Cyclone,2,2021,2,49.17,8.8,Medium
+106,West Bengal,Howrah,Cyclone,10,2017,10,57.32,5.7,Medium
+107,Gujarat,Ahmedabad,Flood,5,2019,38,58.63,14.4,High
+108,Karnataka,Bengaluru,Cyclone,1,2018,5,20.42,21.8,Low
+109,Karnataka,Mangaluru,Earthquake,2,2023,31,60.75,22.6,High
+110,Tamil Nadu,Coimbatore,Fire,11,2017,19,43.22,22.1,Medium
+111,Karnataka,Mysuru,Flood,5,2024,7,70.56,21.8,Medium
+112,Tamil Nadu,Madurai,Flood,4,2022,36,41.75,23.4,Medium
+113,West Bengal,Howrah,Cyclone,7,2020,28,36.4,7.0,Medium
+114,Tamil Nadu,Coimbatore,Flood,12,2018,13,10.46,21.8,Low
+115,West Bengal,Durgapur,Fire,6,2016,39,5.1,5.7,Medium
+116,Karnataka,Mangaluru,Landslide,2,2019,14,41.86,16.2,Medium
+117,Tamil Nadu,Madurai,Flood,3,2024,30,10.71,8.2,Medium
+118,Tamil Nadu,Chennai,Fire,5,2025,29,31.12,9.6,Medium
+119,Maharashtra,Nashik,Landslide,7,2021,1,25.19,2.0,Low
+120,Gujarat,Ahmedabad,Landslide,11,2015,31,55.02,8.2,High
+121,Gujarat,Vadodara,Landslide,7,2017,6,19.63,10.0,Low
+122,Tamil Nadu,Chennai,Fire,11,2020,25,64.48,10.1,High
+123,West Bengal,Kolkata,Earthquake,1,2024,12,14.67,20.1,Low
+124,Maharashtra,Nashik,Earthquake,2,2025,39,18.77,20.3,Medium
+125,West Bengal,Kolkata,Fire,11,2024,28,9.02,6.9,Medium
+126,Tamil Nadu,Madurai,Fire,6,2016,10,19.2,16.0,Low
+127,West Bengal,Howrah,Flood,4,2017,13,75.36,11.6,High
+128,Karnataka,Bengaluru,Landslide,3,2015,20,31.72,11.3,Medium
+129,Maharashtra,Mumbai,Cyclone,6,2024,30,71.33,4.8,High
+130,Karnataka,Mangaluru,Fire,12,2020,36,65.32,19.0,High
+131,Karnataka,Mysuru,Landslide,12,2024,25,67.97,17.1,High
+132,Gujarat,Ahmedabad,Fire,3,2018,3,47.71,15.0,Medium
+133,Maharashtra,Nashik,Flood,6,2022,21,12.78,22.1,Low
+134,West Bengal,Howrah,Earthquake,8,2022,10,30.46,15.9,Medium
+135,Karnataka,Bengaluru,Earthquake,8,2020,12,4.21,12.2,Low
+136,Gujarat,Surat,Landslide,11,2017,3,65.72,20.3,Medium
+137,West Bengal,Howrah,Fire,8,2020,29,0.35,15.2,Low
+138,Tamil Nadu,Coimbatore,Flood,2,2015,36,50.27,21.7,Medium
+139,West Bengal,Kolkata,Landslide,8,2019,4,64.42,10.8,Medium
+140,Tamil Nadu,Chennai,Flood,12,2025,32,32.02,3.0,Medium
+141,Karnataka,Mysuru,Fire,2,2020,9,52.37,5.5,Medium
+142,Tamil Nadu,Chennai,Cyclone,8,2015,20,64.39,21.0,Medium
+143,Tamil Nadu,Coimbatore,Fire,5,2019,20,7.13,6.0,Low
+144,Gujarat,Surat,Earthquake,6,2022,20,51.12,13.3,Medium
+145,West Bengal,Howrah,Landslide,1,2022,35,7.24,23.3,Medium
+146,West Bengal,Kolkata,Cyclone,8,2018,16,71.77,11.7,High
+147,Maharashtra,Mumbai,Landslide,5,2019,5,68.62,16.4,Medium
+148,Karnataka,Mangaluru,Fire,12,2018,12,41.66,5.3,Medium
+149,Tamil Nadu,Chennai,Flood,2,2018,19,6.47,22.8,Low
+150,West Bengal,Howrah,Earthquake,7,2024,37,45.74,6.7,High
+151,Karnataka,Mysuru,Fire,4,2015,23,2.11,14.1,Low
+152,Maharashtra,Pune,Earthquake,8,2017,2,6.51,18.0,Low
+153,Maharashtra,Nagpur,Flood,11,2024,32,63.07,11.7,High
+154,West Bengal,Kolkata,Fire,3,2019,35,21.31,12.1,Medium
+155,Karnataka,Mangaluru,Flood,6,2024,35,23.4,18.7,Medium
+156,Tamil Nadu,Coimbatore,Flood,7,2017,7,36.69,21.3,Medium
+157,Maharashtra,Nashik,Earthquake,7,2017,30,40.43,23.8,Medium
+158,Gujarat,Ahmedabad,Flood,6,2023,31,48.8,7.1,High
+159,Karnataka,Mysuru,Flood,7,2021,13,74.95,12.9,High
+160,Gujarat,Vadodara,Landslide,5,2024,33,43.67,8.5,Medium
+161,Maharashtra,Nagpur,Earthquake,9,2022,8,6.51,9.9,Low
+162,West Bengal,Durgapur,Cyclone,2,2024,18,28.24,16.9,Medium
+163,Tamil Nadu,Madurai,Flood,11,2016,38,46.06,21.4,Medium
+164,Karnataka,Mysuru,Fire,12,2024,20,68.68,13.3,High
+165,Maharashtra,Mumbai,Landslide,2,2020,0,67.69,23.7,Medium
+166,Karnataka,Bengaluru,Fire,4,2018,29,37.89,11.6,Medium
+167,Gujarat,Ahmedabad,Earthquake,9,2020,23,0.89,4.8,Low
+168,Tamil Nadu,Chennai,Fire,2,2015,1,27.4,4.1,Medium
+169,Tamil Nadu,Chennai,Flood,6,2015,24,4.24,13.1,Low
+170,Maharashtra,Mumbai,Landslide,5,2018,0,30.27,8.6,Medium
+171,Tamil Nadu,Madurai,Flood,8,2024,32,35.71,11.6,Medium
+172,Gujarat,Surat,Flood,3,2017,26,17.44,20.0,Medium
+173,Tamil Nadu,Coimbatore,Landslide,4,2023,26,56.05,1.1,High
+174,Karnataka,Mangaluru,Landslide,1,2015,40,3.99,2.9,Medium
+175,Tamil Nadu,Chennai,Fire,6,2018,39,26.0,16.1,Medium
+176,West Bengal,Durgapur,Fire,10,2024,18,71.79,9.3,High
+177,Tamil Nadu,Coimbatore,Earthquake,6,2022,9,44.35,12.4,Medium
+178,Maharashtra,Nagpur,Fire,9,2023,3,7.01,13.7,Low
+179,Gujarat,Vadodara,Flood,9,2025,34,3.9,10.3,Medium
+180,West Bengal,Kolkata,Fire,2,2020,21,0.36,12.1,Low
+181,Gujarat,Vadodara,Fire,2,2020,5,45.15,10.2,Medium
+182,Karnataka,Mangaluru,Fire,1,2020,22,56.52,13.1,Medium
+183,Karnataka,Mysuru,Fire,3,2025,16,35.82,22.7,Medium
+184,Gujarat,Vadodara,Landslide,11,2022,19,61.22,16.9,Medium
+185,West Bengal,Howrah,Cyclone,4,2022,26,37.65,6.6,Medium
+186,Karnataka,Mangaluru,Earthquake,3,2024,9,35.06,15.3,Medium
+187,Gujarat,Vadodara,Cyclone,10,2025,39,79.44,17.2,High
+188,Tamil Nadu,Chennai,Earthquake,1,2016,20,40.48,1.6,Medium
+189,Gujarat,Vadodara,Earthquake,3,2015,24,10.7,2.0,Medium
+190,Tamil Nadu,Coimbatore,Fire,7,2024,13,35.65,5.7,Medium
+191,Gujarat,Vadodara,Earthquake,7,2015,27,34.55,8.5,Medium
+192,Karnataka,Bengaluru,Cyclone,11,2016,3,22.19,10.5,Low
+193,Gujarat,Surat,Cyclone,7,2025,9,38.9,20.4,Medium
+194,Maharashtra,Nagpur,Earthquake,12,2022,38,64.96,3.2,High
+195,Tamil Nadu,Chennai,Landslide,3,2020,13,3.88,23.9,Low
+196,Maharashtra,Mumbai,Earthquake,6,2020,35,77.57,6.4,High
+197,Tamil Nadu,Chennai,Flood,8,2018,21,5.58,2.0,Medium
+198,Karnataka,Mysuru,Flood,4,2025,0,77.12,5.9,Medium
+199,Gujarat,Surat,Fire,11,2018,14,38.46,10.2,Medium
+200,Gujarat,Surat,Flood,3,2018,26,67.9,17.0,High
+201,Tamil Nadu,Madurai,Flood,7,2016,36,8.59,16.7,Medium
+202,Tamil Nadu,Madurai,Fire,4,2024,20,50.08,10.4,Medium
+203,Tamil Nadu,Chennai,Landslide,11,2022,30,45.5,15.9,Medium
+204,Karnataka,Mysuru,Landslide,2,2023,34,58.72,19.3,High
+205,West Bengal,Howrah,Cyclone,1,2017,1,64.53,3.5,Medium
+206,West Bengal,Durgapur,Earthquake,5,2023,7,43.79,20.0,Medium
+207,Tamil Nadu,Coimbatore,Earthquake,8,2017,15,56.29,9.9,Medium
+208,Tamil Nadu,Madurai,Earthquake,9,2020,40,11.58,8.9,Medium
+209,Karnataka,Bengaluru,Fire,10,2024,23,59.06,22.3,Medium
+210,Karnataka,Mangaluru,Flood,10,2018,4,78.77,6.5,High
+211,Maharashtra,Nagpur,Cyclone,6,2022,29,67.12,9.3,High
+212,Tamil Nadu,Chennai,Earthquake,4,2017,1,9.56,21.4,Low
+213,Karnataka,Mangaluru,Flood,6,2018,26,17.89,20.9,Medium
+214,Tamil Nadu,Coimbatore,Flood,11,2021,18,7.95,20.2,Low
+215,Maharashtra,Mumbai,Earthquake,2,2025,29,31.02,3.4,Medium
+216,West Bengal,Durgapur,Fire,3,2022,35,31.95,8.9,Medium
+217,Tamil Nadu,Madurai,Landslide,10,2018,38,76.62,3.7,High
+218,Maharashtra,Nagpur,Flood,11,2018,2,49.62,4.8,Medium
+219,Tamil Nadu,Madurai,Cyclone,1,2016,25,36.37,18.2,Medium
+220,Karnataka,Mangaluru,Cyclone,8,2024,38,66.08,13.1,High
+221,Maharashtra,Pune,Flood,11,2025,29,35.65,10.7,Medium
+222,West Bengal,Howrah,Fire,12,2023,13,58.7,22.4,Medium
+223,Maharashtra,Nagpur,Cyclone,4,2025,9,20.56,12.9,Low
+224,West Bengal,Durgapur,Fire,1,2016,37,4.9,19.0,Medium
+225,Tamil Nadu,Chennai,Landslide,3,2021,39,53.71,17.6,High
+226,Karnataka,Mysuru,Earthquake,11,2020,34,79.15,18.5,High
+227,West Bengal,Howrah,Earthquake,9,2015,9,26.19,15.5,Medium
+228,Maharashtra,Mumbai,Fire,8,2022,4,76.8,4.6,High
+229,Maharashtra,Mumbai,Flood,1,2022,29,8.76,13.3,Medium
+230,Maharashtra,Mumbai,Landslide,6,2015,14,22.23,6.9,Medium
+231,West Bengal,Kolkata,Cyclone,2,2017,12,5.44,20.3,Low
+232,West Bengal,Kolkata,Cyclone,10,2024,21,73.22,12.0,High
+233,Tamil Nadu,Madurai,Cyclone,7,2020,4,65.2,17.8,Medium
+234,Karnataka,Bengaluru,Flood,3,2018,3,14.76,5.6,Low
+235,Tamil Nadu,Coimbatore,Earthquake,3,2015,35,46.38,13.4,Medium
+236,Karnataka,Bengaluru,Flood,4,2024,29,41.78,19.9,Medium
+237,Karnataka,Mangaluru,Landslide,8,2018,5,71.81,7.6,Medium
+238,Maharashtra,Nashik,Earthquake,1,2018,20,28.87,7.6,Medium
+239,West Bengal,Kolkata,Landslide,11,2025,15,71.69,14.7,High
+240,Karnataka,Mysuru,Landslide,7,2021,35,69.79,1.3,High
+241,Tamil Nadu,Coimbatore,Landslide,9,2016,1,25.33,21.4,Low
+242,Tamil Nadu,Madurai,Landslide,4,2015,16,9.36,2.8,Low
+243,Gujarat,Ahmedabad,Fire,7,2020,31,43.76,14.4,Medium
+244,Maharashtra,Pune,Earthquake,10,2025,9,18.88,13.8,Low
+245,Tamil Nadu,Madurai,Landslide,3,2016,22,39.94,19.6,Medium
+246,Maharashtra,Nagpur,Cyclone,9,2022,38,62.5,23.8,High
+247,Tamil Nadu,Madurai,Fire,3,2023,31,2.93,1.8,Medium
+248,Maharashtra,Nashik,Flood,8,2025,36,2.44,3.3,Medium
+249,West Bengal,Durgapur,Earthquake,3,2024,13,27.97,2.8,Medium
+250,Karnataka,Mysuru,Cyclone,4,2024,32,22.82,9.6,Medium
+251,Gujarat,Vadodara,Flood,4,2016,4,8.06,21.2,Low
+252,Gujarat,Ahmedabad,Landslide,2,2019,16,36.27,16.7,Medium
+253,Tamil Nadu,Chennai,Earthquake,10,2015,20,68.56,23.7,High
+254,Maharashtra,Mumbai,Earthquake,7,2015,16,79.0,15.5,High
+255,Karnataka,Mangaluru,Fire,6,2025,28,62.12,12.4,High
+256,Maharashtra,Nashik,Flood,5,2015,17,48.87,6.3,Medium
+257,West Bengal,Durgapur,Flood,2,2020,5,22.9,15.3,Low
+258,Tamil Nadu,Coimbatore,Landslide,11,2022,19,36.43,13.5,Medium
+259,Karnataka,Bengaluru,Cyclone,10,2015,3,32.02,1.3,Medium
+260,Karnataka,Mysuru,Landslide,7,2019,15,59.94,22.5,Medium
+261,Karnataka,Mysuru,Fire,5,2021,40,10.74,7.1,Medium
+262,West Bengal,Durgapur,Cyclone,9,2020,11,50.07,11.7,Medium
+263,Karnataka,Mysuru,Flood,1,2018,5,47.66,2.7,Medium
+264,Karnataka,Mysuru,Cyclone,5,2016,8,29.63,20.7,Medium
+265,Maharashtra,Nagpur,Cyclone,4,2020,6,29.36,18.9,Medium
+266,West Bengal,Kolkata,Landslide,5,2022,2,41.76,18.0,Medium
+267,West Bengal,Kolkata,Fire,7,2018,0,74.12,8.4,Medium
+268,Gujarat,Vadodara,Flood,10,2020,34,20.89,4.9,Medium
+269,Maharashtra,Nashik,Cyclone,1,2016,9,60.53,13.6,Medium
+270,West Bengal,Kolkata,Earthquake,6,2020,14,21.76,18.9,Medium
+271,Maharashtra,Nashik,Cyclone,9,2021,23,41.81,17.8,Medium
+272,West Bengal,Howrah,Earthquake,12,2023,6,37.86,22.8,Medium
+273,West Bengal,Kolkata,Flood,5,2025,21,24.54,1.6,Medium
+274,Gujarat,Vadodara,Fire,8,2021,14,13.02,23.8,Low
+275,Maharashtra,Nashik,Cyclone,3,2019,39,15.46,8.7,Medium
+276,Gujarat,Vadodara,Landslide,10,2024,36,24.59,10.8,Medium
+277,Maharashtra,Nashik,Earthquake,2,2016,38,52.9,4.8,High
+278,West Bengal,Howrah,Earthquake,4,2019,22,38.92,18.5,Medium
+279,West Bengal,Howrah,Cyclone,6,2025,25,22.94,20.1,Medium
+280,Gujarat,Ahmedabad,Landslide,5,2019,38,16.16,5.7,Medium
+281,West Bengal,Durgapur,Flood,7,2023,30,11.5,2.1,Medium
+282,Maharashtra,Mumbai,Flood,2,2022,16,61.87,23.2,Medium
+283,Gujarat,Ahmedabad,Flood,5,2024,14,62.96,15.3,Medium
+284,Maharashtra,Nagpur,Fire,10,2015,30,47.76,16.4,Medium
+285,West Bengal,Kolkata,Landslide,10,2022,7,63.65,14.9,Medium
+286,Maharashtra,Nashik,Landslide,11,2022,22,77.68,16.5,High
+287,West Bengal,Kolkata,Flood,11,2018,22,8.02,18.7,Low
+288,Karnataka,Bengaluru,Earthquake,12,2021,40,35.79,11.0,Medium
+289,Maharashtra,Pune,Cyclone,12,2025,16,39.94,15.6,Medium
+290,West Bengal,Kolkata,Landslide,11,2023,35,66.33,19.3,High
+291,Tamil Nadu,Madurai,Landslide,8,2018,25,18.8,1.0,Medium
+292,Tamil Nadu,Coimbatore,Landslide,11,2021,15,46.33,6.3,Medium
+293,Gujarat,Ahmedabad,Flood,1,2019,19,41.03,21.0,Medium
+294,Karnataka,Mysuru,Earthquake,11,2016,38,50.1,14.5,High
+295,Karnataka,Mangaluru,Fire,12,2024,24,50.71,23.2,Medium
+296,West Bengal,Kolkata,Landslide,7,2022,1,15.36,2.5,Low
+297,Karnataka,Mysuru,Earthquake,4,2018,5,77.1,3.9,High
+298,West Bengal,Howrah,Fire,10,2021,12,46.52,16.8,Medium
+299,Tamil Nadu,Coimbatore,Landslide,8,2017,27,12.9,18.2,Medium
+300,Gujarat,Surat,Cyclone,4,2024,27,72.55,3.6,High
+301,Tamil Nadu,Chennai,Flood,6,2018,15,64.85,17.4,Medium
+302,West Bengal,Kolkata,Fire,9,2016,7,27.7,14.4,Medium
+303,Maharashtra,Pune,Cyclone,3,2017,7,13.26,11.3,Low
+304,Gujarat,Ahmedabad,Landslide,8,2019,8,77.98,13.0,High
+305,Maharashtra,Nagpur,Cyclone,10,2016,26,65.16,21.7,High
+306,West Bengal,Howrah,Earthquake,12,2019,32,50.63,15.4,Medium
+307,Maharashtra,Nagpur,Flood,4,2015,0,33.55,21.7,Low
+308,Karnataka,Bengaluru,Cyclone,3,2017,31,61.83,21.7,High
+309,Maharashtra,Mumbai,Cyclone,3,2019,22,2.84,17.3,Low
+310,Maharashtra,Nagpur,Cyclone,4,2020,23,50.89,23.5,Medium
+311,Tamil Nadu,Coimbatore,Flood,10,2022,33,74.38,21.6,High
+312,Tamil Nadu,Coimbatore,Landslide,10,2020,26,67.53,6.9,High
+313,Maharashtra,Nagpur,Landslide,12,2020,33,58.75,7.9,High
+314,Maharashtra,Mumbai,Cyclone,6,2021,13,38.55,13.3,Medium
+315,Gujarat,Vadodara,Fire,2,2023,31,30.35,6.0,Medium
+316,Tamil Nadu,Coimbatore,Flood,6,2022,37,35.38,15.6,Medium
+317,Tamil Nadu,Chennai,Flood,9,2018,7,38.01,22.1,Medium
+318,Karnataka,Bengaluru,Flood,10,2015,5,76.82,18.8,Medium
+319,Karnataka,Bengaluru,Cyclone,12,2016,27,26.04,23.0,Medium
+320,Karnataka,Mysuru,Cyclone,7,2017,28,46.3,22.3,Medium
+321,Maharashtra,Nashik,Flood,7,2018,4,8.5,9.3,Low
+322,Tamil Nadu,Madurai,Cyclone,4,2018,8,71.78,17.2,Medium
+323,Tamil Nadu,Madurai,Landslide,7,2016,11,77.04,12.5,High
+324,Maharashtra,Nashik,Fire,10,2022,7,19.77,11.2,Low
+325,Gujarat,Surat,Earthquake,9,2021,7,61.39,19.0,Medium
+326,West Bengal,Howrah,Fire,9,2017,39,50.9,19.6,High
+327,West Bengal,Durgapur,Cyclone,4,2022,30,5.62,4.7,Medium
+328,West Bengal,Howrah,Cyclone,3,2024,0,4.43,22.3,Low
+329,Tamil Nadu,Chennai,Flood,9,2023,2,53.59,14.6,Medium
+330,Gujarat,Ahmedabad,Fire,4,2017,19,7.88,1.0,Medium
+331,Maharashtra,Nashik,Landslide,10,2025,12,42.66,19.9,Medium
+332,Gujarat,Ahmedabad,Landslide,4,2020,13,8.48,23.6,Low
+333,Maharashtra,Pune,Cyclone,6,2023,28,44.24,10.3,Medium
+334,West Bengal,Kolkata,Flood,4,2017,31,40.28,15.3,Medium
+335,West Bengal,Durgapur,Flood,4,2023,9,55.28,7.3,Medium
+336,Tamil Nadu,Coimbatore,Flood,12,2022,5,16.11,9.3,Low
+337,Gujarat,Vadodara,Fire,11,2025,11,5.72,6.5,Low
+338,Gujarat,Ahmedabad,Cyclone,9,2022,5,40.72,9.5,Medium
+339,Gujarat,Ahmedabad,Cyclone,1,2018,4,48.33,23.6,Medium
+340,West Bengal,Howrah,Flood,6,2023,21,27.9,12.1,Medium
+341,Maharashtra,Mumbai,Earthquake,1,2018,35,57.46,21.0,High
+342,Karnataka,Bengaluru,Fire,1,2020,13,30.2,9.0,Medium
+343,Karnataka,Mysuru,Cyclone,7,2018,18,43.85,16.5,Medium
+344,Gujarat,Vadodara,Landslide,7,2024,39,77.63,22.5,High
+345,Gujarat,Surat,Cyclone,12,2025,36,62.36,16.6,High
+346,Karnataka,Mangaluru,Earthquake,10,2020,37,58.81,20.4,High
+347,Karnataka,Mysuru,Cyclone,8,2017,14,64.75,23.8,Medium
+348,Karnataka,Mysuru,Cyclone,9,2024,22,57.12,4.8,High
+349,Gujarat,Vadodara,Fire,9,2019,12,7.54,13.7,Low
+350,Karnataka,Bengaluru,Flood,5,2021,22,70.28,3.7,High
+351,Maharashtra,Nagpur,Cyclone,9,2021,26,59.78,6.2,High
+352,Gujarat,Surat,Fire,11,2021,19,16.4,15.0,Medium
+353,Gujarat,Vadodara,Earthquake,10,2024,16,19.52,7.4,Medium
+354,Karnataka,Bengaluru,Cyclone,12,2015,39,2.47,14.1,Medium
+355,West Bengal,Kolkata,Earthquake,9,2022,28,1.52,3.3,Medium
+356,West Bengal,Howrah,Flood,4,2023,13,68.46,8.5,High
+357,Gujarat,Surat,Earthquake,8,2025,5,20.15,4.6,Low
+358,Maharashtra,Mumbai,Cyclone,1,2017,14,30.92,6.4,Medium
+359,West Bengal,Kolkata,Cyclone,2,2025,13,11.95,15.4,Low
+360,Karnataka,Mangaluru,Earthquake,7,2022,16,78.3,16.1,High
+361,Gujarat,Vadodara,Earthquake,6,2019,35,23.46,4.6,Medium
+362,Karnataka,Mangaluru,Flood,1,2023,32,45.3,20.5,Medium
+363,Karnataka,Mysuru,Earthquake,8,2015,12,54.49,13.7,Medium
+364,West Bengal,Kolkata,Fire,3,2020,0,71.18,23.5,Medium
+365,West Bengal,Howrah,Flood,12,2024,10,46.91,6.3,Medium
+366,West Bengal,Kolkata,Fire,11,2021,28,28.62,6.7,Medium
+367,Gujarat,Surat,Landslide,3,2023,14,39.49,9.2,Medium
+368,Tamil Nadu,Coimbatore,Earthquake,1,2023,33,56.75,4.1,High
+369,Karnataka,Bengaluru,Fire,2,2018,15,15.02,16.4,Low
+370,West Bengal,Kolkata,Fire,5,2022,10,73.11,8.5,High
+371,West Bengal,Kolkata,Cyclone,12,2022,20,52.06,7.8,Medium
+372,Karnataka,Mangaluru,Earthquake,7,2021,26,54.1,17.3,Medium
+373,Tamil Nadu,Madurai,Landslide,5,2020,17,16.58,21.6,Low
+374,Gujarat,Surat,Earthquake,7,2023,22,22.39,7.8,Medium
+375,Karnataka,Bengaluru,Fire,2,2025,27,77.56,17.6,High
+376,Tamil Nadu,Madurai,Earthquake,6,2016,18,74.12,23.4,High
+377,Karnataka,Mysuru,Fire,1,2017,3,38.42,9.7,Medium
+378,Karnataka,Mysuru,Flood,12,2018,31,8.57,8.0,Medium
+379,Maharashtra,Nagpur,Landslide,7,2021,28,35.4,5.9,Medium
+380,Maharashtra,Pune,Fire,5,2019,19,79.21,3.9,High
+381,Tamil Nadu,Chennai,Fire,6,2020,25,27.82,22.6,Medium
+382,Gujarat,Surat,Earthquake,9,2016,24,47.87,17.0,Medium
+383,Karnataka,Bengaluru,Flood,12,2017,28,55.53,13.4,High
+384,Karnataka,Bengaluru,Cyclone,2,2022,26,48.65,9.5,Medium
+385,West Bengal,Kolkata,Flood,1,2016,32,73.12,16.9,High
+386,West Bengal,Kolkata,Earthquake,12,2021,7,54.43,3.8,Medium
+387,Maharashtra,Nagpur,Earthquake,6,2016,33,35.68,20.4,Medium
+388,Tamil Nadu,Chennai,Landslide,2,2020,16,2.7,23.7,Low
+389,Tamil Nadu,Madurai,Flood,5,2017,21,25.25,22.3,Medium
+390,Maharashtra,Mumbai,Landslide,8,2017,19,56.29,3.9,Medium
+391,West Bengal,Kolkata,Fire,8,2024,12,23.71,3.0,Medium
+392,Gujarat,Ahmedabad,Fire,3,2023,7,64.11,6.7,Medium
+393,Maharashtra,Pune,Fire,3,2016,1,61.05,10.7,Medium
+394,Gujarat,Surat,Earthquake,10,2019,1,46.05,3.0,Medium
+395,Tamil Nadu,Madurai,Fire,5,2023,18,27.76,19.4,Medium
+396,Karnataka,Bengaluru,Fire,1,2021,18,3.66,10.9,Low
+397,West Bengal,Kolkata,Cyclone,8,2018,31,30.42,19.1,Medium
+398,Gujarat,Ahmedabad,Landslide,5,2022,4,29.98,20.6,Low
+399,Maharashtra,Pune,Flood,10,2022,35,68.97,15.8,High
+400,Gujarat,Surat,Flood,1,2018,14,6.18,12.8,Low
+401,West Bengal,Durgapur,Flood,12,2022,24,28.71,11.1,Medium
+402,Gujarat,Surat,Fire,11,2023,11,1.57,17.2,Low
+403,Tamil Nadu,Madurai,Fire,5,2020,35,12.94,13.3,Medium
+404,Karnataka,Mysuru,Landslide,8,2024,34,17.94,15.1,Medium
+405,West Bengal,Kolkata,Flood,10,2025,24,70.73,17.6,High
+406,Tamil Nadu,Madurai,Landslide,10,2025,19,61.92,11.6,Medium
+407,Maharashtra,Mumbai,Earthquake,9,2021,22,11.37,11.2,Medium
+408,Maharashtra,Mumbai,Fire,5,2016,38,68.45,4.6,High
+409,Tamil Nadu,Chennai,Landslide,11,2021,11,74.73,2.7,High
+410,Gujarat,Vadodara,Landslide,7,2015,24,56.53,6.5,High
+411,Karnataka,Mangaluru,Fire,7,2019,1,26.12,19.3,Low
+412,Karnataka,Mysuru,Landslide,12,2020,1,46.17,22.7,Medium
+413,Karnataka,Mysuru,Flood,1,2016,37,49.74,14.8,High
+414,Karnataka,Mysuru,Earthquake,4,2017,20,13.81,1.5,Medium
+415,Tamil Nadu,Coimbatore,Earthquake,8,2022,19,47.22,16.0,Medium
+416,Maharashtra,Pune,Fire,3,2019,12,29.38,1.1,Medium
+417,West Bengal,Durgapur,Earthquake,11,2025,18,71.26,9.1,High
+418,Tamil Nadu,Madurai,Flood,9,2023,12,62.73,8.6,Medium
+419,Tamil Nadu,Chennai,Flood,11,2019,19,71.34,8.6,High
+420,Gujarat,Surat,Earthquake,6,2015,26,33.15,7.2,Medium
+421,Tamil Nadu,Chennai,Fire,7,2019,9,55.25,3.5,Medium
+422,Tamil Nadu,Chennai,Cyclone,5,2024,26,29.44,16.2,Medium
+423,Karnataka,Bengaluru,Fire,4,2018,2,43.07,2.1,Medium
+424,Tamil Nadu,Coimbatore,Landslide,11,2024,23,22.2,19.1,Medium
+425,Tamil Nadu,Coimbatore,Cyclone,10,2016,18,68.4,13.7,High
+426,Maharashtra,Nagpur,Fire,8,2015,15,9.72,18.5,Low
+427,Gujarat,Ahmedabad,Landslide,7,2023,16,74.22,15.1,High
+428,Karnataka,Mysuru,Flood,5,2017,26,41.63,21.7,Medium
+429,Gujarat,Vadodara,Earthquake,7,2025,14,75.89,8.0,High
+430,Gujarat,Ahmedabad,Landslide,3,2024,30,10.3,6.4,Medium
+431,Maharashtra,Mumbai,Flood,5,2022,39,39.28,12.6,Medium
+432,Tamil Nadu,Coimbatore,Flood,1,2024,14,65.47,9.9,Medium
+433,West Bengal,Durgapur,Landslide,8,2024,22,61.61,20.7,Medium
+434,Gujarat,Ahmedabad,Earthquake,12,2021,12,56.2,18.7,Medium
+435,Karnataka,Mysuru,Cyclone,11,2023,1,57.5,4.8,Medium
+436,West Bengal,Durgapur,Cyclone,7,2018,1,14.78,13.1,Low
+437,Karnataka,Mangaluru,Flood,2,2024,12,30.62,14.7,Medium
+438,Gujarat,Vadodara,Cyclone,10,2019,8,43.08,15.5,Medium
+439,West Bengal,Howrah,Flood,8,2025,4,42.3,10.9,Medium
+440,Gujarat,Ahmedabad,Flood,2,2025,33,63.58,6.2,High
+441,Tamil Nadu,Coimbatore,Earthquake,4,2019,30,53.19,12.1,High
+442,Tamil Nadu,Chennai,Landslide,5,2016,39,56.35,12.8,High
+443,Tamil Nadu,Chennai,Earthquake,6,2016,18,39.89,8.6,Medium
+444,Maharashtra,Pune,Cyclone,8,2015,20,64.16,3.8,High
+445,Maharashtra,Nagpur,Earthquake,6,2019,0,65.93,15.1,Medium
+446,West Bengal,Howrah,Landslide,8,2018,30,51.36,13.4,Medium
+447,West Bengal,Kolkata,Cyclone,12,2023,30,76.47,6.0,High
+448,Maharashtra,Mumbai,Earthquake,7,2020,11,56.44,15.8,Medium
+449,Maharashtra,Nashik,Earthquake,10,2020,9,79.02,8.9,High
+450,Tamil Nadu,Coimbatore,Cyclone,8,2025,14,53.54,11.0,Medium
+451,Maharashtra,Mumbai,Earthquake,2,2016,8,29.16,13.0,Medium
+452,Gujarat,Ahmedabad,Earthquake,5,2025,40,74.82,12.8,High
+453,West Bengal,Durgapur,Fire,12,2019,39,52.44,16.0,High
+454,Gujarat,Ahmedabad,Earthquake,4,2025,11,68.97,6.6,High
+455,Tamil Nadu,Chennai,Fire,6,2022,30,62.74,15.6,High
+456,Maharashtra,Mumbai,Flood,11,2025,24,9.76,4.3,Medium
+457,Maharashtra,Nagpur,Flood,4,2022,13,14.24,11.8,Low
+458,West Bengal,Kolkata,Fire,8,2016,14,6.4,9.8,Low
+459,Gujarat,Vadodara,Earthquake,10,2024,39,50.55,20.5,High
+460,Maharashtra,Nashik,Flood,11,2022,39,31.68,4.6,Medium
+461,Gujarat,Vadodara,Earthquake,12,2017,9,12.27,18.9,Low
+462,Tamil Nadu,Chennai,Landslide,9,2024,21,72.81,16.6,High
+463,Gujarat,Ahmedabad,Fire,12,2023,1,63.24,10.8,Medium
+464,Tamil Nadu,Madurai,Landslide,12,2017,30,47.74,13.0,Medium
+465,Gujarat,Ahmedabad,Cyclone,5,2023,29,13.54,14.0,Medium
+466,Karnataka,Bengaluru,Cyclone,11,2024,16,23.98,7.9,Medium
+467,West Bengal,Kolkata,Flood,11,2017,36,57.78,10.9,High
+468,Tamil Nadu,Chennai,Earthquake,10,2016,16,30.68,8.6,Medium
+469,Maharashtra,Nashik,Fire,9,2020,20,57.25,8.5,Medium
+470,Maharashtra,Nashik,Fire,3,2015,32,29.88,2.1,Medium
+471,Gujarat,Ahmedabad,Fire,6,2018,2,39.21,6.3,Medium
+472,Tamil Nadu,Chennai,Earthquake,2,2019,9,3.43,10.6,Low
+473,West Bengal,Durgapur,Earthquake,10,2019,18,56.19,11.7,Medium
+474,Tamil Nadu,Chennai,Fire,1,2024,24,5.95,18.9,Low
+475,Gujarat,Ahmedabad,Landslide,9,2018,2,57.43,12.4,Medium
+476,Karnataka,Mangaluru,Landslide,3,2022,33,74.84,16.4,High
+477,West Bengal,Howrah,Fire,8,2015,11,62.67,9.8,Medium
+478,Karnataka,Mangaluru,Cyclone,6,2025,35,9.65,8.5,Medium
+479,Gujarat,Vadodara,Earthquake,12,2023,40,13.34,13.9,Medium
+480,West Bengal,Kolkata,Cyclone,9,2018,36,3.14,10.0,Medium
+481,Karnataka,Bengaluru,Fire,2,2017,7,13.48,2.4,Low
+482,Tamil Nadu,Chennai,Fire,5,2018,31,79.7,18.2,High
+483,Tamil Nadu,Chennai,Earthquake,6,2016,0,4.08,15.9,Low
+484,West Bengal,Kolkata,Flood,1,2020,12,48.81,13.0,Medium
+485,West Bengal,Howrah,Cyclone,3,2022,10,57.15,10.7,Medium
+486,Maharashtra,Pune,Landslide,1,2021,39,6.76,20.4,Medium
+487,Tamil Nadu,Chennai,Cyclone,12,2025,38,15.79,9.4,Medium
+488,Gujarat,Surat,Flood,5,2019,17,73.96,22.7,High
+489,Tamil Nadu,Madurai,Flood,1,2019,30,19.26,15.6,Medium
+490,Tamil Nadu,Chennai,Cyclone,5,2015,12,14.93,4.5,Low
+491,Karnataka,Mangaluru,Cyclone,8,2017,15,24.98,18.6,Medium
+492,Karnataka,Mysuru,Fire,11,2019,39,67.75,2.7,High
+493,Maharashtra,Mumbai,Cyclone,11,2022,28,14.26,23.0,Medium
+494,Maharashtra,Nagpur,Earthquake,1,2019,11,76.2,1.8,High
+495,West Bengal,Durgapur,Cyclone,5,2025,35,26.73,15.3,Medium
+496,Maharashtra,Nagpur,Fire,1,2020,6,51.63,12.3,Medium
+497,West Bengal,Kolkata,Earthquake,9,2015,18,12.79,22.1,Low
+498,Maharashtra,Nashik,Earthquake,4,2018,5,15.42,7.9,Low
+499,West Bengal,Howrah,Earthquake,12,2022,14,42.36,3.7,Medium
+500,Maharashtra,Nashik,Fire,3,2023,3,70.86,1.2,Medium
+501,Gujarat,Surat,Earthquake,7,2020,17,34.81,23.2,Medium
+502,Karnataka,Bengaluru,Flood,4,2023,0,68.91,5.6,Medium
+503,Karnataka,Bengaluru,Cyclone,10,2016,14,39.21,16.2,Medium
+504,Gujarat,Vadodara,Cyclone,6,2023,23,75.58,16.5,High
+505,Maharashtra,Pune,Flood,4,2024,29,54.39,15.7,High
+506,Maharashtra,Pune,Landslide,4,2022,32,12.57,14.4,Medium
+507,Karnataka,Bengaluru,Fire,9,2023,31,2.43,21.3,Low
+508,Karnataka,Mysuru,Earthquake,2,2015,0,43.96,11.0,Medium
+509,Karnataka,Bengaluru,Earthquake,1,2021,37,51.49,18.1,High
+510,West Bengal,Durgapur,Flood,4,2022,26,31.53,9.5,Medium
+511,West Bengal,Howrah,Fire,3,2023,10,25.21,11.5,Medium
+512,Karnataka,Bengaluru,Landslide,5,2015,18,62.08,19.6,Medium
+513,Tamil Nadu,Coimbatore,Cyclone,6,2018,37,39.47,23.5,Medium
+514,Maharashtra,Mumbai,Landslide,1,2023,15,46.88,23.3,Medium
+515,Tamil Nadu,Chennai,Earthquake,10,2021,33,36.98,12.4,Medium
+516,West Bengal,Howrah,Fire,5,2018,24,41.2,1.7,Medium
+517,Gujarat,Vadodara,Cyclone,9,2020,6,62.87,6.6,Medium
+518,Tamil Nadu,Madurai,Flood,3,2021,22,20.67,3.1,Medium
+519,Maharashtra,Mumbai,Fire,3,2022,30,65.1,9.0,High
+520,Tamil Nadu,Coimbatore,Fire,7,2023,39,33.16,5.7,Medium
+521,Gujarat,Vadodara,Cyclone,11,2022,39,48.57,4.7,High
+522,Gujarat,Ahmedabad,Fire,6,2019,31,52.87,4.8,High
+523,Tamil Nadu,Madurai,Flood,12,2020,17,76.08,11.5,High
+524,Gujarat,Ahmedabad,Flood,11,2016,22,26.64,4.4,Medium
+525,West Bengal,Howrah,Cyclone,1,2016,11,48.37,17.5,Medium
+526,Maharashtra,Nashik,Cyclone,12,2022,22,4.87,2.1,Medium
+527,West Bengal,Howrah,Cyclone,6,2017,1,53.87,22.3,Medium
+528,Maharashtra,Nagpur,Flood,10,2024,9,76.29,13.0,High
+529,Gujarat,Ahmedabad,Earthquake,12,2024,4,65.19,14.5,Medium
+530,Maharashtra,Nashik,Fire,5,2015,40,47.75,20.2,High
+531,Karnataka,Mysuru,Landslide,2,2015,13,68.15,17.4,Medium
+532,Karnataka,Mysuru,Flood,11,2016,0,53.38,16.9,Medium
+533,Karnataka,Mysuru,Flood,3,2023,34,17.46,20.1,Medium
+534,Gujarat,Vadodara,Cyclone,4,2015,15,23.19,1.2,Medium
+535,Karnataka,Bengaluru,Fire,6,2016,21,71.92,16.3,High
+536,West Bengal,Howrah,Fire,12,2015,24,37.52,22.6,Medium
+537,Karnataka,Bengaluru,Cyclone,9,2023,32,57.43,1.7,High
+538,Karnataka,Mysuru,Cyclone,4,2016,14,42.22,18.7,Medium
+539,Maharashtra,Mumbai,Earthquake,8,2022,23,20.44,14.6,Medium
+540,Gujarat,Vadodara,Landslide,6,2018,7,76.85,10.4,High
+541,West Bengal,Kolkata,Earthquake,5,2025,40,45.63,10.8,High
+542,Gujarat,Ahmedabad,Flood,12,2022,23,62.01,2.0,High
+543,Karnataka,Bengaluru,Earthquake,5,2022,29,41.62,23.5,Medium
+544,Karnataka,Mangaluru,Cyclone,9,2025,5,5.81,5.6,Low
+545,West Bengal,Kolkata,Cyclone,8,2021,7,71.55,23.3,Medium
+546,Karnataka,Mangaluru,Earthquake,3,2025,4,34.72,10.3,Medium
+547,West Bengal,Kolkata,Earthquake,4,2025,38,45.69,11.8,High
+548,Maharashtra,Nashik,Earthquake,7,2017,38,47.95,2.7,High
+549,Maharashtra,Nashik,Cyclone,5,2023,40,35.27,5.3,Medium
+550,Karnataka,Bengaluru,Fire,1,2015,13,25.37,7.6,Medium
+551,Karnataka,Bengaluru,Landslide,8,2019,17,33.16,6.4,Medium
+552,Tamil Nadu,Madurai,Earthquake,1,2025,8,73.91,3.8,High
+553,West Bengal,Howrah,Fire,11,2018,4,30.35,12.4,Medium
+554,Maharashtra,Pune,Flood,11,2015,28,58.49,20.5,High
+555,Tamil Nadu,Coimbatore,Earthquake,4,2023,19,45.15,18.4,Medium
+556,Maharashtra,Nagpur,Earthquake,10,2016,1,60.6,10.7,Medium
+557,Maharashtra,Nagpur,Flood,4,2024,9,11.71,12.4,Low
+558,Karnataka,Mangaluru,Earthquake,8,2023,21,33.6,13.1,Medium
+559,West Bengal,Howrah,Flood,5,2024,29,48.07,23.9,Medium
+560,West Bengal,Durgapur,Flood,11,2024,3,41.29,21.4,Medium
+561,Maharashtra,Pune,Cyclone,8,2018,40,16.39,13.2,Medium
+562,West Bengal,Howrah,Landslide,12,2015,31,32.06,14.4,Medium
+563,West Bengal,Kolkata,Fire,2,2020,0,56.53,3.9,Medium
+564,Maharashtra,Mumbai,Flood,11,2022,24,61.21,9.1,High
+565,Gujarat,Ahmedabad,Earthquake,2,2016,8,74.4,10.1,High
+566,Gujarat,Ahmedabad,Cyclone,10,2023,24,60.18,18.6,Medium
+567,Karnataka,Mysuru,Landslide,12,2023,20,55.74,7.3,Medium
+568,Tamil Nadu,Coimbatore,Fire,3,2019,17,49.26,21.0,Medium
+569,Gujarat,Surat,Fire,9,2019,24,7.62,1.8,Medium
+570,Karnataka,Mangaluru,Fire,1,2023,31,38.82,13.7,Medium
+571,Maharashtra,Mumbai,Earthquake,12,2021,3,40.51,22.8,Medium
+572,Maharashtra,Mumbai,Flood,12,2020,9,9.59,21.6,Low
+573,West Bengal,Kolkata,Flood,4,2024,14,24.76,14.8,Medium
+574,Karnataka,Bengaluru,Earthquake,10,2017,40,20.35,20.6,Medium
+575,Tamil Nadu,Coimbatore,Cyclone,1,2017,25,5.43,19.8,Low
+576,Karnataka,Bengaluru,Landslide,12,2022,8,40.61,8.9,Medium
+577,Tamil Nadu,Coimbatore,Cyclone,4,2025,32,8.37,22.3,Medium
+578,Gujarat,Ahmedabad,Fire,8,2020,21,19.96,19.4,Medium
+579,West Bengal,Howrah,Landslide,2,2019,1,8.06,2.4,Low
+580,Maharashtra,Mumbai,Flood,7,2024,17,13.06,11.3,Low
+581,Karnataka,Mangaluru,Flood,7,2017,0,50.09,6.7,Medium
+582,West Bengal,Kolkata,Earthquake,3,2017,28,57.78,6.7,High
+583,Karnataka,Mysuru,Landslide,10,2017,16,28.45,20.9,Medium
+584,Maharashtra,Nagpur,Fire,3,2021,10,68.99,6.0,High
+585,Karnataka,Bengaluru,Earthquake,6,2022,31,66.99,5.8,High
+586,Karnataka,Mysuru,Cyclone,12,2019,14,70.08,16.9,High
+587,Gujarat,Ahmedabad,Earthquake,6,2018,20,70.28,14.8,High
+588,Karnataka,Mysuru,Fire,7,2017,22,68.51,21.8,High
+589,Karnataka,Mangaluru,Earthquake,3,2021,16,37.83,18.0,Medium
+590,Gujarat,Vadodara,Cyclone,4,2020,28,47.54,14.8,Medium
+591,Tamil Nadu,Chennai,Fire,2,2025,21,53.08,6.2,Medium
+592,West Bengal,Howrah,Flood,10,2018,38,3.23,14.4,Medium
+593,West Bengal,Howrah,Flood,6,2016,22,77.55,7.1,High
+594,West Bengal,Howrah,Cyclone,2,2019,34,2.86,18.2,Medium
+595,Karnataka,Mysuru,Landslide,2,2020,24,64.95,10.5,High
+596,Tamil Nadu,Madurai,Earthquake,4,2020,11,71.56,16.1,Medium
+597,Gujarat,Ahmedabad,Earthquake,10,2022,2,69.1,14.8,Medium
+598,Karnataka,Mangaluru,Fire,6,2022,6,32.84,15.7,Medium
+599,Maharashtra,Nashik,Fire,8,2020,9,6.8,16.1,Low
+600,Tamil Nadu,Chennai,Cyclone,9,2020,39,46.85,1.1,High
+601,Gujarat,Ahmedabad,Landslide,10,2018,36,72.07,5.3,High
+602,Maharashtra,Pune,Landslide,7,2024,26,50.66,9.4,Medium
+603,West Bengal,Durgapur,Fire,9,2022,30,20.38,21.9,Medium
+604,West Bengal,Durgapur,Cyclone,8,2020,11,17.91,1.3,Medium
+605,West Bengal,Kolkata,Flood,2,2015,19,16.96,7.2,Medium
+606,Maharashtra,Pune,Fire,3,2015,3,57.29,23.8,Medium
+607,Tamil Nadu,Coimbatore,Flood,3,2020,17,18.0,16.8,Medium
+608,Karnataka,Mysuru,Fire,1,2025,21,45.48,1.9,Medium
+609,West Bengal,Howrah,Earthquake,12,2024,36,52.37,6.2,High
+610,Gujarat,Ahmedabad,Fire,4,2022,5,68.13,13.1,Medium
+611,Karnataka,Bengaluru,Fire,10,2020,4,63.54,7.9,Medium
+612,Gujarat,Ahmedabad,Landslide,9,2017,0,7.61,5.1,Low
+613,Gujarat,Ahmedabad,Fire,3,2024,2,51.3,23.5,Medium
+614,West Bengal,Durgapur,Flood,4,2022,13,2.8,17.2,Low
+615,Tamil Nadu,Coimbatore,Flood,4,2021,18,32.13,23.3,Medium
+616,Karnataka,Mysuru,Fire,4,2023,19,2.63,15.0,Low
+617,Karnataka,Bengaluru,Flood,11,2024,23,60.16,17.8,Medium
+618,Karnataka,Bengaluru,Landslide,5,2024,37,41.88,21.2,Medium
+619,Tamil Nadu,Coimbatore,Earthquake,11,2017,35,63.2,17.0,High
+620,West Bengal,Durgapur,Landslide,7,2019,2,68.7,6.6,Medium
+621,Gujarat,Ahmedabad,Cyclone,3,2022,4,50.95,9.3,Medium
+622,West Bengal,Kolkata,Cyclone,4,2017,18,12.8,4.9,Medium
+623,Tamil Nadu,Madurai,Fire,9,2022,31,58.27,15.3,High
+624,Tamil Nadu,Chennai,Flood,10,2025,2,29.55,12.8,Low
+625,Gujarat,Surat,Earthquake,8,2019,1,72.8,15.4,Medium
+626,Karnataka,Mangaluru,Cyclone,4,2024,11,76.08,2.2,High
+627,West Bengal,Kolkata,Flood,12,2022,4,25.11,19.3,Low
+628,Maharashtra,Mumbai,Landslide,2,2016,5,67.07,20.3,Medium
+629,Karnataka,Mysuru,Fire,3,2017,6,70.73,8.1,Medium
+630,Karnataka,Mangaluru,Earthquake,5,2017,28,25.2,5.4,Medium
+631,Karnataka,Mangaluru,Flood,12,2025,33,64.69,3.9,High
+632,Tamil Nadu,Coimbatore,Earthquake,8,2024,28,67.45,9.0,High
+633,Gujarat,Ahmedabad,Cyclone,3,2021,22,22.81,23.3,Medium
+634,Tamil Nadu,Chennai,Earthquake,4,2019,7,33.06,4.1,Medium
+635,Maharashtra,Mumbai,Landslide,3,2021,24,46.04,15.2,Medium
+636,Tamil Nadu,Madurai,Cyclone,1,2019,10,14.47,8.1,Low
+637,Maharashtra,Nagpur,Fire,3,2025,5,54.06,16.4,Medium
+638,Gujarat,Surat,Landslide,12,2023,25,39.3,7.1,Medium
+639,Maharashtra,Pune,Earthquake,2,2016,18,48.05,13.0,Medium
+640,West Bengal,Durgapur,Cyclone,11,2024,16,56.19,19.7,Medium
+641,Maharashtra,Mumbai,Cyclone,10,2019,14,76.19,17.2,High
+642,Karnataka,Mysuru,Earthquake,6,2023,40,79.52,16.4,High
+643,Gujarat,Ahmedabad,Cyclone,12,2022,2,58.38,20.3,Medium
+644,Karnataka,Bengaluru,Fire,7,2020,32,74.57,23.6,High
+645,West Bengal,Howrah,Fire,8,2024,23,47.11,18.0,Medium
+646,Gujarat,Vadodara,Earthquake,12,2017,2,14.3,16.5,Low
+647,Karnataka,Mangaluru,Fire,12,2017,38,19.47,21.8,Medium
+648,Karnataka,Bengaluru,Landslide,8,2023,4,76.32,10.1,Medium
+649,Gujarat,Surat,Earthquake,5,2023,12,23.49,22.3,Low
+650,Gujarat,Vadodara,Fire,11,2022,29,54.23,7.0,High
+651,Gujarat,Surat,Fire,12,2021,5,37.27,6.1,Medium
+652,Gujarat,Surat,Fire,1,2015,10,7.95,22.2,Low
+653,Gujarat,Vadodara,Fire,2,2018,16,26.08,6.8,Medium
+654,Karnataka,Mangaluru,Cyclone,4,2015,16,54.35,3.4,Medium
+655,West Bengal,Howrah,Fire,9,2022,35,68.82,24.0,High
+656,Gujarat,Surat,Landslide,11,2018,28,44.38,9.8,Medium
+657,Maharashtra,Pune,Landslide,1,2023,12,4.37,9.3,Low
+658,Maharashtra,Pune,Fire,8,2016,9,67.01,23.5,Medium
+659,Gujarat,Vadodara,Cyclone,11,2025,0,20.24,10.8,Low
+660,Maharashtra,Nashik,Cyclone,10,2023,2,62.53,8.3,Medium
+661,Tamil Nadu,Madurai,Cyclone,7,2021,18,48.13,16.4,Medium
+662,Tamil Nadu,Chennai,Earthquake,9,2020,3,31.52,8.4,Medium
+663,Karnataka,Bengaluru,Flood,7,2015,3,23.75,15.9,Low
+664,Maharashtra,Nagpur,Cyclone,12,2016,11,3.25,7.4,Low
+665,Maharashtra,Nashik,Cyclone,3,2025,24,44.07,16.6,Medium
+666,Maharashtra,Mumbai,Cyclone,4,2020,7,5.46,8.4,Low
+667,Karnataka,Mysuru,Cyclone,2,2020,24,72.69,22.8,High
+668,West Bengal,Kolkata,Landslide,8,2020,18,44.08,19.2,Medium
+669,Maharashtra,Pune,Flood,11,2016,0,34.6,11.1,Medium
+670,Maharashtra,Nagpur,Earthquake,3,2019,33,19.49,13.0,Medium
+671,Maharashtra,Pune,Cyclone,6,2016,36,35.26,6.4,Medium
+672,Gujarat,Surat,Cyclone,10,2021,27,53.79,15.2,Medium
+673,Karnataka,Mysuru,Flood,3,2018,27,54.61,11.1,High
+674,Maharashtra,Nashik,Flood,11,2017,20,36.4,20.4,Medium
+675,West Bengal,Kolkata,Landslide,6,2016,31,79.41,10.0,High
+676,Karnataka,Bengaluru,Fire,12,2021,29,75.24,1.3,High
+677,Gujarat,Ahmedabad,Landslide,3,2018,18,66.9,4.0,High
+678,Gujarat,Ahmedabad,Earthquake,8,2016,7,34.58,5.6,Medium
+679,Tamil Nadu,Chennai,Flood,6,2023,34,66.35,17.6,High
+680,Tamil Nadu,Chennai,Cyclone,4,2025,33,5.92,16.1,Medium
+681,West Bengal,Kolkata,Cyclone,9,2024,21,29.0,18.5,Medium
+682,Tamil Nadu,Madurai,Landslide,10,2020,37,55.3,20.4,High
+683,Gujarat,Surat,Fire,1,2021,11,49.61,16.5,Medium
+684,Gujarat,Ahmedabad,Fire,7,2021,40,7.93,9.2,Medium
+685,Maharashtra,Nashik,Flood,8,2024,14,33.25,14.8,Medium
+686,West Bengal,Kolkata,Flood,6,2018,8,15.56,8.1,Low
+687,Karnataka,Bengaluru,Landslide,5,2017,36,0.31,10.7,Medium
+688,West Bengal,Durgapur,Landslide,12,2025,39,40.51,6.9,High
+689,Karnataka,Mangaluru,Cyclone,9,2017,31,2.13,11.9,Medium
+690,Tamil Nadu,Madurai,Earthquake,2,2025,13,61.8,18.2,Medium
+691,West Bengal,Kolkata,Flood,6,2022,15,52.2,18.7,Medium
+692,Karnataka,Bengaluru,Cyclone,11,2016,20,23.24,18.9,Medium
+693,Maharashtra,Nagpur,Fire,6,2021,12,57.77,6.9,Medium
+694,Maharashtra,Mumbai,Flood,9,2025,20,24.92,23.5,Medium
+695,Tamil Nadu,Madurai,Cyclone,6,2021,31,59.32,19.3,High
+696,West Bengal,Durgapur,Cyclone,1,2025,20,71.34,9.2,High
+697,Maharashtra,Nagpur,Earthquake,3,2015,32,28.89,13.2,Medium
+698,Maharashtra,Nagpur,Flood,7,2023,22,27.63,7.3,Medium
+699,Gujarat,Ahmedabad,Flood,11,2023,37,53.28,18.2,High
+700,Karnataka,Mangaluru,Flood,10,2015,1,65.13,19.1,Medium
+701,Karnataka,Mangaluru,Earthquake,9,2019,24,65.9,9.0,High
+702,Maharashtra,Pune,Flood,12,2022,27,70.51,23.2,High
+703,Tamil Nadu,Chennai,Fire,11,2019,26,42.86,4.7,Medium
+704,West Bengal,Howrah,Cyclone,12,2017,19,51.3,6.3,Medium
+705,Maharashtra,Mumbai,Cyclone,11,2020,39,1.12,3.2,Medium
+706,West Bengal,Howrah,Landslide,4,2015,36,46.11,15.7,Medium
+707,Maharashtra,Nagpur,Cyclone,9,2024,10,41.33,23.3,Medium
+708,Gujarat,Ahmedabad,Cyclone,2,2023,23,77.64,21.2,High
+709,Gujarat,Surat,Fire,7,2025,30,38.9,13.9,Medium
+710,West Bengal,Durgapur,Flood,5,2017,35,45.77,23.7,Medium
+711,Karnataka,Mangaluru,Cyclone,3,2024,7,25.67,13.2,Medium
+712,West Bengal,Howrah,Landslide,12,2018,10,71.82,3.9,High
+713,Tamil Nadu,Coimbatore,Fire,8,2023,2,10.66,2.4,Low
+714,Gujarat,Ahmedabad,Flood,5,2024,18,61.24,2.3,High
+715,Maharashtra,Nashik,Fire,4,2016,30,17.59,9.1,Medium
+716,Maharashtra,Nagpur,Earthquake,10,2025,23,50.66,10.8,Medium
+717,Gujarat,Vadodara,Cyclone,7,2022,39,18.62,20.0,Medium
+718,West Bengal,Kolkata,Landslide,1,2019,22,49.4,15.9,Medium
+719,Karnataka,Mysuru,Flood,11,2017,4,27.08,10.1,Medium
+720,Gujarat,Vadodara,Cyclone,2,2022,36,68.01,19.5,High
+721,Karnataka,Mangaluru,Earthquake,8,2025,36,33.24,2.4,Medium
+722,Gujarat,Surat,Fire,4,2015,40,6.47,8.9,Medium
+723,Tamil Nadu,Chennai,Fire,11,2019,21,6.08,11.3,Low
+724,Maharashtra,Nagpur,Cyclone,7,2020,39,41.29,8.5,High
+725,Maharashtra,Nashik,Landslide,4,2024,13,73.8,21.0,High
+726,Tamil Nadu,Chennai,Flood,9,2015,7,25.9,22.9,Low
+727,Gujarat,Ahmedabad,Flood,3,2025,20,51.43,18.5,Medium
+728,Maharashtra,Mumbai,Flood,7,2022,14,26.84,17.9,Medium
+729,Maharashtra,Nashik,Cyclone,8,2015,25,52.48,10.9,Medium
+730,West Bengal,Kolkata,Earthquake,12,2020,31,17.14,5.5,Medium
+731,West Bengal,Durgapur,Cyclone,5,2015,40,44.42,11.5,High
+732,Tamil Nadu,Madurai,Landslide,4,2017,11,62.91,14.8,Medium
+733,West Bengal,Kolkata,Landslide,9,2025,1,39.11,5.0,Medium
+734,Maharashtra,Pune,Fire,5,2021,31,17.91,8.3,Medium
+735,Tamil Nadu,Coimbatore,Cyclone,9,2015,24,9.91,9.7,Medium
+736,West Bengal,Kolkata,Earthquake,4,2024,35,30.41,14.0,Medium
+737,Karnataka,Bengaluru,Earthquake,3,2018,9,66.9,2.1,Medium
+738,Gujarat,Vadodara,Flood,12,2017,13,26.05,19.4,Medium
+739,Tamil Nadu,Coimbatore,Earthquake,5,2018,0,35.67,3.5,Medium
+740,Maharashtra,Mumbai,Landslide,10,2016,14,51.94,8.2,Medium
+741,Maharashtra,Nagpur,Fire,3,2023,31,66.96,10.4,High
+742,West Bengal,Howrah,Cyclone,1,2023,38,27.75,1.7,Medium
+743,West Bengal,Durgapur,Flood,7,2018,20,69.3,5.0,High
+744,Tamil Nadu,Coimbatore,Earthquake,1,2017,12,1.21,4.6,Low
+745,Maharashtra,Nashik,Landslide,1,2018,26,20.47,17.1,Medium
+746,Gujarat,Vadodara,Flood,3,2023,12,6.25,5.0,Low
+747,Tamil Nadu,Chennai,Landslide,9,2018,28,24.33,5.4,Medium
+748,Karnataka,Bengaluru,Flood,3,2020,16,52.86,10.6,Medium
+749,West Bengal,Howrah,Flood,11,2025,31,75.17,23.6,High
+750,West Bengal,Durgapur,Cyclone,3,2020,14,9.22,2.7,Low
+751,Maharashtra,Nagpur,Landslide,8,2023,35,6.75,14.2,Medium
+752,West Bengal,Howrah,Fire,10,2022,1,62.92,19.5,Medium
+753,Karnataka,Bengaluru,Landslide,6,2022,37,14.81,9.9,Medium
+754,Karnataka,Mangaluru,Cyclone,8,2015,1,11.63,3.0,Low
+755,Maharashtra,Nagpur,Flood,5,2021,18,52.32,13.3,Medium
+756,Karnataka,Mangaluru,Flood,9,2024,39,18.38,16.2,Medium
+757,Karnataka,Mangaluru,Flood,5,2024,28,27.74,10.4,Medium
+758,West Bengal,Kolkata,Cyclone,4,2015,37,71.71,13.3,High
+759,Tamil Nadu,Chennai,Landslide,7,2025,12,36.01,11.9,Medium
+760,Gujarat,Surat,Landslide,11,2018,1,50.81,13.4,Medium
+761,Maharashtra,Nagpur,Earthquake,11,2023,1,72.45,11.9,Medium
+762,Tamil Nadu,Coimbatore,Earthquake,3,2015,23,12.38,9.1,Medium
+763,Maharashtra,Mumbai,Earthquake,3,2018,23,19.16,12.5,Medium
+764,Tamil Nadu,Coimbatore,Fire,11,2024,26,10.47,1.5,Medium
+765,Karnataka,Mangaluru,Cyclone,2,2024,23,50.21,6.1,Medium
+766,Tamil Nadu,Chennai,Landslide,5,2023,6,36.15,9.5,Medium
+767,Gujarat,Ahmedabad,Landslide,11,2016,8,53.31,23.4,Medium
+768,Maharashtra,Pune,Landslide,8,2016,30,19.21,21.9,Medium
+769,Karnataka,Mangaluru,Landslide,11,2021,29,1.13,2.4,Medium
+770,Tamil Nadu,Coimbatore,Landslide,2,2019,1,58.86,23.4,Medium
+771,Maharashtra,Mumbai,Cyclone,2,2021,38,73.0,1.0,High
+772,Maharashtra,Pune,Cyclone,3,2016,10,17.76,20.2,Low
+773,Gujarat,Surat,Cyclone,12,2019,22,65.92,21.2,High
+774,Gujarat,Ahmedabad,Fire,9,2016,10,18.54,18.5,Low
+775,Tamil Nadu,Coimbatore,Cyclone,1,2019,6,33.4,1.9,Medium
+776,Tamil Nadu,Madurai,Landslide,2,2022,18,20.49,22.2,Medium
+777,Karnataka,Bengaluru,Earthquake,9,2019,24,75.93,2.4,High
+778,Karnataka,Mysuru,Cyclone,3,2024,36,66.21,9.4,High
+779,West Bengal,Howrah,Fire,11,2019,35,9.88,2.1,Medium
+780,Karnataka,Mysuru,Landslide,5,2018,29,44.01,5.0,Medium
+781,Karnataka,Bengaluru,Cyclone,4,2017,34,37.8,12.5,Medium
+782,Karnataka,Mangaluru,Fire,9,2025,40,65.2,2.9,High
+783,Karnataka,Bengaluru,Earthquake,3,2023,10,47.81,22.4,Medium
+784,Maharashtra,Pune,Earthquake,11,2018,21,49.6,12.3,Medium
+785,Karnataka,Mangaluru,Earthquake,1,2022,40,55.56,12.8,High
+786,Gujarat,Vadodara,Landslide,4,2017,37,65.19,23.1,High
+787,Gujarat,Ahmedabad,Fire,1,2016,18,53.79,20.6,Medium
+788,Tamil Nadu,Chennai,Fire,8,2025,24,12.45,2.2,Medium
+789,Gujarat,Vadodara,Fire,12,2020,39,63.35,6.1,High
+790,Maharashtra,Mumbai,Flood,10,2016,14,33.33,5.2,Medium
+791,West Bengal,Durgapur,Flood,10,2017,8,56.96,3.3,Medium
+792,Gujarat,Surat,Flood,3,2018,4,36.48,16.7,Medium
+793,Gujarat,Surat,Cyclone,6,2015,9,26.27,17.6,Medium
+794,Tamil Nadu,Madurai,Flood,3,2018,34,34.61,22.4,Medium
+795,West Bengal,Kolkata,Earthquake,12,2015,4,10.06,5.7,Low
+796,Maharashtra,Nashik,Landslide,2,2023,39,40.55,17.9,Medium
+797,Tamil Nadu,Coimbatore,Fire,8,2020,5,41.03,18.8,Medium
+798,Maharashtra,Pune,Landslide,2,2017,34,45.05,6.8,High
+799,Tamil Nadu,Madurai,Cyclone,5,2015,20,79.19,13.4,High
+800,Tamil Nadu,Chennai,Cyclone,9,2022,20,40.1,6.0,Medium

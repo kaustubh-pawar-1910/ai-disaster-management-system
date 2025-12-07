@@ -1,0 +1,4 @@
+incident_id,state,city,disaster_type,month,year,casualties,economic_loss_crores,response_time_hours,severity
+1,Maharashtra,Pune,Flood,7,2023,3,10.5,4.0,Medium
+2,Gujarat,Ahmedabad,Earthquake,1,2022,10,35.0,6.0,High
+3,Karnataka,Bengaluru,Fire,11,2024,1,2.0,2.5,Low
